@@ -1,0 +1,210 @@
+/* 
++AKk S+AO0-lvio Silva
+  2k21
+  21/10/2021
+  +2D3dlg
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+*{
+font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@media screen and (min-width: 900px) {
+	#logo{
+	width:13%;
+	margin-left: 430px;
+	margin-top: 30px;
+}
+body{
+	background: #FBFBFB;
+}
+#loginArea{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	}
+.login{
+	padding: 12px;
+	width: 50%;
+ border: solid 1px #ddd;
+	border-radius: 5px;
+	background: #ECEAEA;
+	margin-top: -7px;
+}
+.password{
+	padding: 12px;
+	width: 50%;
+	border: solid 1px #ddd;
+	border-radius: 5px;
+	background: #ECEAEA;
+	margin-top: -15px;
+}
+#btn{
+	padding: 10px;
+	width: 50%;
+	color: white;
+	font-size: 14pt;
+	background: #4169e1;
+	border: none;
+	border-radius: 5px;
+	margin-top: -10px;
+	font-weight: bold;
+}
+.p-link{
+	color: #4169e1;
+	text-decoration: none;
+}
+.sp{
+	width: 30%;
+	margin-right: 350px;
+	margin-bottom: -3px;
+}
+.orText{
+	font-weight: normal;
+	margin-top: -11px;
+}
+.spp{
+	width: 30%;
+	margin-left: 350px;
+	margin-top: -9.9px;
+}
+#createButton{
+	padding: 12px;
+	color: white;
+	background: #228b26;
+	border: none;
+	border-radius: 5px;
+	width: 17%;
+	font-weight: bold;
+	font-size: 10pt;
+}
+a{
+	text-decoration: none;
+}
+.languages{
+	margin-top: 120px;
+	margin-right: 5px;
+	font-size: 10pt;
+}
+.active{
+	color: #6a6a6a;
+	margin-right: 150px;
+}
+.other-languages {
+	margin-top: -47px;
+	margin-left: 600px;
+}
+.alert{
+	color: #ad7626;
+	margin-left: 410px;,
+	
+}
+.alert{
+	position: absolute;
+	top: 620px;
+}
+	}
+	@media screen and (max-width: 900px) {
+	#logo{
+	width:40%;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+body{
+	background: #FBFBFB;
+}
+#loginArea{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+	}
+.login{
+	padding: 12px;
+	width: 85%;
+border: solid 1px #ddd;
+	border-radius: 5px;
+	background: #ECEAEA;
+	margin-top: -5px;
+}
+.password{
+	padding: 12px;
+	width: 85%;
+	border: solid 1px #ddd;
+	border-radius: 5px;
+	background: #ECEAEA;
+	margin-top: -13px;
+}
+#btn{
+	padding: 10px;
+	width: 85%;
+	color: white;
+	font-size: 14pt;
+	background: #4169e1;
+	border: none;
+	border-radius: 5px;
+	margin-top: -8px;
+	font-weight: bold;
+}
+.p-link{
+	color: #4169e1;
+	text-decoration: none;
+}
+.sp{
+	width: 35%;
+	margin-right: 150px;
+}
+.orText{
+	font-weight: normal;
+	margin-top: -11px;
+}
+.spp{
+	width: 35%;
+	margin-left: 150px;
+	margin-top: -9.7px;
+}
+#createButton{
+	padding: 12px;
+	color: white;
+	background: #228b26;
+	border: none;
+	border-radius: 5px;
+	width: 50%;
+	font-weight: bold;
+	font-size: 10pt;
+}
+a{
+	text-decoration: none;
+	color: #5a6589;
+}
+.languages{
+	margin-top: 80px;
+	margin-left: 5px;
+	font-size: 10pt;
+	
+}
+.active{
+	color: #6a6a6a;
+	margin-right: 150px;
+}
+.other-languages {
+	margin-top: -47px;
+	margin-left: 155px;
+	text-align: center;
+}
+.alert{
+	color: #ad7626;
+	margin-left: 210px;
+	
+}
+.alert{
+	position: absolute;
+	bottom: 5px;
+}
+}
