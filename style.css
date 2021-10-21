@@ -112,7 +112,7 @@ a{
 	@media screen and (max-width: 900px) {
 	#logo{
 	width:40%;
-	margin-left: 90px;
+	margin-left: 100px;
 	margin-top: 30px;
 }
 body{
@@ -145,7 +145,7 @@ border: solid 1px #ddd;
 	padding: 10px;
 	width: 85%;
 	color: white;
-	font-size: 14pt;
+	font-size: 12pt;
 	background: #4169e1;
 	border: none;
 	border-radius: 5px;
@@ -155,6 +155,7 @@ border: solid 1px #ddd;
 .p-link{
 	color: #4169e1;
 	text-decoration: none;
+        font-size: 11pt;
 }
 .sp{
 	width: 35%;
