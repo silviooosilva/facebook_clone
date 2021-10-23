@@ -48,7 +48,7 @@ body{
 	padding: 10px;
 	width: 50%;
 	color: white;
-	font-size: 14pt;
+	font-size: 12pt;
 	background: #4169e1;
 	border: none;
 	border-radius: 5px;
@@ -98,6 +98,7 @@ a{
 .other-languages {
 	margin-top: -47px;
 	margin-left: 600px;
+        font-size: 10pt;
 }
 .alert{
 	color: #ad7626;
